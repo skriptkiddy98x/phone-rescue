@@ -1,0 +1,19 @@
+# Exported data must never be committed
+export/
+exports/
+*.export/
+out/
+backup/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
